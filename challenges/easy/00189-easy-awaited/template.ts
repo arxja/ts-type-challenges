@@ -1,1 +1,1 @@
-export type MyAwaited<T> = T extends Promise<infer U> ? MyAwaited<U> : T;
+export type MyAwaited<T> = T extends PromiseLike<infer U> ? MyAwaited<U> : T;
