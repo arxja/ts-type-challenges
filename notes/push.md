@@ -5,4 +5,4 @@
 - **Status**: done
 - **Attempts**: 1
 - **Key insight**: **`Push` is “spread the old tuple, then tack the new item on the right.”** It’s the type-level equivalent of `arr.push(item)` — except the original tuple is untouched (types are immutable by nature).
-- **Reuse**: -
+- **Reuse**: Immutable tuple updates

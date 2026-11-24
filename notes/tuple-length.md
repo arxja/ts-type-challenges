@@ -5,4 +5,4 @@
 - **Status**: done
 - **Attempts**: 1
 - **Key insight**: If you constrain `T extends any[]` instead of `readonly any[]`, you’ll reject `as const` tuples. Use `readonly any[]` to accept both mutable and readonly tuples.
-- **Reuse**: -
+- **Reuse**: Recursion termination, counted types
